@@ -1,6 +1,6 @@
 # Azure_generic_private_dns_zone_using_terraform_module
 Using this techhub template we can create Azure generic private dns zone using terraform module on your Azure subscription 
-###This repo contains terraform modules for Private DNS Zones & Private DNS Zone Virtual Network Links creation.
+### This repo contains terraform modules for Private DNS Zones & Private DNS Zone Virtual Network Links creation.
 
 
 
