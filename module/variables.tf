@@ -1,11 +1,3 @@
-# variable "virtual_network_name" {
-#   type = string
-# }
-
-# variable "resource_group_vnet_name" {
-#   type = string
-# }
-
 variable "private_dns_zones" {
   description = "A map of private DNS zone configurations."
   type = map(object({
