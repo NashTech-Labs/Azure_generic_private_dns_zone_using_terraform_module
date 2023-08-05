@@ -6,10 +6,6 @@ provider "azurerm" {
   features {
   }
 }
-# data "azurerm_virtual_network" "pevnet" {
-#   name                = var.virtual_network_name
-#   resource_group_name = var.resource_group_vnet_name
-# }
 
 resource "azurerm_private_dns_zone" "dnszone" {
   for_each            = var.private_dns_zones
